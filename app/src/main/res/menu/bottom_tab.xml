@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/event"
+        android:icon="@drawable/icon_tab_event_unselected"
+        android:title="@string/tab_event"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/news"
+        android:icon="@drawable/icon_tab_news_unselected"
+        android:title="@string/tab_news"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/post"
+        android:icon="@drawable/icon_tab_post_unselected"
+        android:title="@string/tab_post"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/team"
+        android:icon="@drawable/icon_tab_team_unselected"
+        android:title="@string/tab_team"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/mall"
+        android:icon="@drawable/icon_tab_mall_unselected"
+        android:title="@string/tab_mall"
+        app:showAsAction="ifRoom|withText" />
+</menu>
